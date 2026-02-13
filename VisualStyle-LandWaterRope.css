@@ -1,0 +1,242 @@
+/* Styling for the 3 pages: LandBasedActivities, WaterBasedActivities, and RopeBasedActivities */
+
+body {
+  background-color:darkseagreen;
+  display: flow-root;
+}
+
+.header {
+background-color: forestgreen;
+width: 625px;
+font-size: 40px;
+text-align: center;
+margin: auto; 
+margin-top: 35px; /* Main webpage height value adjuster */
+margin-bottom: 15px;
+padding: 15px 25px; 
+padding-bottom: 20px;
+border: 2px solid black;
+}
+
+.header a {
+    text-decoration: none;      /* blue underline removal */
+    color: black;               
+    font-weight: bold;
+}
+
+img {
+  display: block;    
+  margin-left: auto; 
+  margin-right: auto;
+  width: 678px;      
+  margin-top: 20px;  
+  margin-bottom: 20px;
+}
+
+/* This is the stadard good review box in the footer */
+.goodreview {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    background-color: forestgreen;
+    width: 658px; 
+    margin: auto;
+    margin-top: 20px; 
+    padding: 10px 10px;
+    border: 2px solid black;
+}
+.goodreview h4, .goodreview p {
+    margin: 5px 0; /* This shrinks the vertical gap between the lines */
+}
+
+/* ELEMENTS FOR "Contact Info" PAGE */
+.contact-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: black;}
+
+.contact-box {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    background-color: forestgreen;
+    width: 400px; 
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border: 2px solid black;
+}
+
+.contact-box h4, .contact-box p {margin: 3px 0;} /* This shrinks the vertical gap between the lines */
+
+.activities-button {
+    background-color: darkgray;
+    padding: 15px 25px;
+    border: 2px solid black;
+    text-align: center;
+    display: block;          
+}
+
+.activities-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* IMAGES FOR "Activities" PAGE */
+
+.activity-thumb {
+    width: 100%;     
+    height: auto;    
+    border-radius: 8px; 
+    margin: 10px;
+}
+
+.activity-images-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* BUTTONS for "Activities" page */
+
+.button-container {
+    display: flex;            
+    flex-direction: row;      
+    justify-content: center;  
+    gap: 130px;                
+    margin-top: 30px;         
+    width: 100%;              
+}
+
+/* Manipulating the size of the little images */
+
+.activity-thumb {
+    width: 300px;         
+    height: 200px;        
+    object-fit: cover;    
+
+}
+
+.activity-images-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+/* Controls the width of the text in the description of each individual activity column */
+.activity-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    width: 290px;           
+    gap: 10px;
+    font-family:cursive;              
+}
+
+/* Styling the title "Activities of Lockquarry" on the "Activities" page */
+
+.activities-title {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 250px;  
+    display: block;    
+    clear: both;      
+}
+
+/* Moving the "Activities of Lockquarry" text down */
+
+.activities-body .activities-title {
+    margin-top: 80px;  
+    margin-bottom: 80px;
+    display: block;
+}
+
+/* Moving the good reviews bar of "Activities" page down */
+
+.activities-body .goodreview {
+    margin-top: 10px;    
+    margin-bottom: 0px; 
+}
+
+/* Blue bar for "Water Activities" */
+.bluewaterbox {
+  background-color: royalblue;
+  padding: 15px 25px;
+  border: 2px solid black;
+  text-align: center;
+  display: block;   
+  width: 400px;     
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: black;
+  margin-top: 0;
+}
+h1.bluewaterbox {
+    margin: 0;   
+}
+/* Orange bar for "Rope Activities" */
+.orangeropebox {
+  background-color: orangered;
+  padding: 15px 25px;
+  border: 2px solid black;
+  text-align: center;
+  display: block;   
+  width: 400px;     
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: black;
+}
+h1.orangeropebox {
+    margin: 0;  
+}
+/* Magenta bar for "Land Activities" */
+.magentalandbox {
+  background-color: #cb6ce6;
+  padding: 15px 25px;
+  border: 2px solid black;
+  text-align: center;
+  display: block;   /* Standard block behavior */
+  width: 400px;     /* Width must be set for 'auto' margins to work */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: black;
+}
+h1.magentalandbox{
+    margin: 0;   
+}
+
+/* Classic grey hyperlink button */
+.activities-button {
+    background-color: darkgray;
+    padding: 15px 25px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;          
+}
+.activities-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*copyright text*/
+.copyright-text{
+    text-align: center;
+    margin-left: auto;   
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
